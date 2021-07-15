@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {width: 700px;}
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {width: 500px;}
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {width: 300px;}
+}
+body {
+  background-color: beige;
+  font-family: 'Uchen', serif;
+}
+h1 {
+  font-size: 40px;
+  color: rgb(27, 16, 1);
+  font-family: 'Varela', sans-serif;
+}
+h2 {
+  color: dimgrey;
+  font-size: large;
+  font-family: 'Varela', sans-serif;
+}
+a {
+  font-weight: bold;
+  font-size: medium;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgba(12, 152, 155, 0.918);
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card-white {
+  background-color: white;
+  margin: 40px;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgb(196, 196, 114);
+  text-align: center;
+}
+
+.avatar-circle {
+  border-radius: 50%;
+}
+
+.add_shadow {
+  text-shadow: 0.1px 0.1px 0.2px black, 0 0 1em blue, 0 0 0.1em darkblue;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li{
+  display: inline-block;
+}
+
+.icon-stuff{
+  font-size: 40px;
+  padding: 10px;
+  color: aqua;
+}
+
+.icon-stuff:hover{
+  color: red;
+}
+
+.btn-gray {
+  border-radius: 4px;
+  background-color: #2d2e3b;
+  color: white;
+  padding: 15px 20px;
+}
